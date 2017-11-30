@@ -5,7 +5,7 @@
 // @description  Add direct links to raw logs on build summary pages
 // @author       Nick Vrvilo
 // @include      https://travis-ci.org/*
-// @require      https://raw.githubusercontent.com/DaoWen/toggletools/master/toggletools.js
+// @require      https://cdn.rawgit.com/DaoWen/toggletools/f3d56fb5/toggletools.js
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/DaoWen/togglescripts/master/travis-ci.org/raw-logs.user.js
 // ==/UserScript==

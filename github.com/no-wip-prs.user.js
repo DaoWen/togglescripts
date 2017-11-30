@@ -6,7 +6,7 @@
 // @author       Nick Vrvilo
 // @include      https://github.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js
-// @require      https://raw.githubusercontent.com/DaoWen/toggletools/master/toggletools.js
+// @require      https://cdn.rawgit.com/DaoWen/toggletools/f3d56fb5/toggletools.js
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/DaoWen/togglescripts/master/github.com/no-wip-prs.user.js
 // ==/UserScript==
