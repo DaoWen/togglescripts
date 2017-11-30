@@ -15,10 +15,7 @@ doOnLocationChange('div.table-list-filters div.states', function ($parent) {
     'use strict';
 
     const doLinkAdd = function(href, classes, count) {
-        if ($('#noWipLink').length >$('#noWipLink').length > 0) {
-            console.error("X WIP link already exists! How did this happen?");
-        }
-        else {
+        if ($('#noWipLink').length === 0) {
             const labelText = count !== undefined ? `${count} WIP` : 'WIP';
             const linkHTML = `<a href="${href}" id="noWipLink" class="${classes}">&#x1f5d9; ${labelText}</a>`;
             $parent.append(linkHTML);
